@@ -12,3 +12,5 @@ tokenizer.apply_chat_template(chat, tokenize=False)
 
 tokenized_chat = tokenizer.apply_chat_template(chat, tokenize=True, add_generation_prompt=True, return_tensors="pt")
 print(tokenizer.decode(tokenized_chat[0]))
+
+
