@@ -7,7 +7,8 @@ classifier = pipeline("zero-shot-classification",
 customer_texts = [
     "I want to find out more about your product",
     "I need to speak to someone your product has broken and i want you to do something about it",
-    "fuck you, you useless piece of shit"
+    "fuck you, you useless piece of shit",
+    "This is what I wanted, thanks"
 ]
 
 
